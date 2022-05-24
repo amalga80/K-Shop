@@ -7,11 +7,11 @@ Kindly follow these steps
 
 ## Node Modules 
 
-run          npm i
+npm i
 
 ## Backend Server 
 
- run      npm run server 
+npm run server 
 
 ## Development server
 
