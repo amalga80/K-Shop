@@ -1,0 +1,117 @@
+{
+  "recentProducts": [
+    {
+      "id": 1,
+      "title": "تيشيرت كم طويل ١",
+      "price": "80 ج.م",
+      "tag": {
+        "title": "new",
+        "label": "جديد"
+      },
+      "img": "https://via.placeholder.com/150x200.png/09f/fff"
+    },
+    {
+      "id": 2,
+      "title": "تيشيرت كم طويل 2",
+      "price": "100 ج.م",
+      "sale": {
+        "sale" : true,
+        "price" : "70 ج.م"
+      },
+      "tag": {
+        "title": "sale",
+        "label": "عرض"
+      },
+      "img": "https://via.placeholder.com/150x200.png/931/fff"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "rate" : 3,
+      "title": "تيشيرت كم طويل ١",
+      "price": "80 ج.م",
+      "tag": {
+        "title": "new",
+        "label": "جديد"
+      },
+      "img": "https://via.placeholder.com/150x200.png/09f/fff"
+    },
+    {
+      "id": 2,
+      "rate" : 5,
+      "title": "تيشيرت كم طويل 2",
+      "price": "100 ج.م",
+      "sale": {
+        "sale" : true,
+        "price" : "70 ج.م"
+      },
+      "tag": {
+        "title": "sale",
+        "label": "عرض"
+      },
+      "img": "https://via.placeholder.com/150x200.png/931/fff"
+    },
+    {
+      "id": 3,
+      "rate" : 1,
+      "title": "تيشيرت كم 3",
+      "price": "100 ج.م",
+      "sale": {
+        "sale" : true,
+        "price" : "70 ج.م"
+      },
+      "tag": {
+        "title": "sale",
+        "label": "عرض"
+      },
+      "img": "https://via.placeholder.com/150x200.png/931/fff"
+    },
+    {
+      "id": 4,
+      "rate" : 2,
+      "title": "تيشيرت كم طويل 2",
+      "price": "100 ج.م",
+      "sale": {
+        "sale" : true,
+        "price" : "70 ج.م"
+      },
+      "tag": {
+        "title": "sale",
+        "label": "عرض"
+      },
+      "img": "https://via.placeholder.com/150x200.png/931/fff"
+    },
+    {
+      "id": 5,
+      "rate" : 5,
+      "title": "تيشيرت كم طويل 42",
+      "price": "100 ج.م",
+      "sale": {
+        "sale" : true,
+        "price" : "70 ج.م"
+      },
+      "tag": {
+        "title": "sale",
+        "label": "عرض"
+      },
+      "img": "https://via.placeholder.com/150x200.png/931/fff"
+    },
+    {
+      "id": 6,
+      "rate" : 4,
+      "title": "تيشيرت كم طويل 6",
+      "price": "100 ج.م",
+      "sale": {
+        "sale" : true,
+        "price" : "70 ج.م"
+      },
+      "tag": {
+        "title": "sale",
+        "label": "عرض"
+      },
+      "img": "https://via.placeholder.com/150x200.png/931/fff"
+    }
+  ]
+  
+}

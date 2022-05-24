@@ -1,0 +1,108 @@
+@import '../../../../assets/SCSS/partials/variables';
+
+.navbar {
+  background-color: $white;
+}
+
+.container-fluid_header {
+  @media screen and (min-width: $md) {
+    padding: 0;
+  }
+}
+
+.custom-navbar-collapse {
+  @media screen and (min-width: $md) {
+    display: block!important;
+  }
+}
+
+.navbar-nav_search {
+  @media screen and (min-width: $md) {
+    margin: 15px 50px;
+  }
+}
+
+.user-btn {
+  margin: 15px 0 15px 15px;
+  height: 36px;
+
+  @media screen and (min-width: $md) {
+    margin: 0 15px;
+  }
+}
+
+
+
+.input-search {
+  input {
+    height: 36px;
+    background-color: $btnBG;
+    color: $primary;
+  }
+  input::-webkit-input-placeholder{
+    color:$deviderGray;
+  }
+  input:-moz-placeholder {
+      color:$deviderGray;
+  }
+  input::placeholder {
+    color:$deviderGray;
+  }
+
+  .fa {
+    color: $primary;
+  }
+}
+
+.btn-primary_cart {
+  min-width: 130px;
+  height: 36px;
+
+  .fa {
+    padding-right: 20px;
+  }
+
+  @media screen and (max-width: $md) {
+    margin: 15px;
+  }
+}
+
+.navbar-nav_links {
+  background-color: $btnBG;
+
+  .btn-dropdown-custom {
+    color: $primary;
+    @media screen and (min-width: $md) {
+      padding: 10px 50px;
+    }
+
+    &::after {
+      margin-right: 20px;
+    }
+  }
+
+  .nav-link {
+    color: $primary;
+
+    @media screen and (min-width: $md) {
+      padding: 10px 30px;
+    }
+  }
+
+  .nav-item.active {
+    background-color: lighten($deviderGray, 9);
+    border-right: 2px solid $deviderGray;
+    .nav-link {
+      font-weight: bold;
+    }
+  }
+
+
+  @media screen and (max-width: $md){
+  background-color: $white;
+
+    .nav-link {
+      text-align: start;
+    }
+  }
+}
