@@ -5,7 +5,7 @@ import { RouterModule } from '@angular/router';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { HeaderComponent } from './components/header/header.component';
 import { ProductCardLgComponent } from './components/product-card-lg/product-card-lg.component';
-import { ProductCardSmComponent } from './components/product-card-sm/product-card-sm.component';
+import { SideBarComponent } from './components/side-bar/side-bar.component';
 
 
 
@@ -19,12 +19,12 @@ import { ProductCardSmComponent } from './components/product-card-sm/product-car
   declarations: [
     HeaderComponent,
     ProductCardLgComponent,
-    ProductCardSmComponent
+    SideBarComponent
   ],
   exports: [
     HeaderComponent,
     ProductCardLgComponent,
-    ProductCardSmComponent
+    SideBarComponent
   ]
 })
 export class SharedModule { }

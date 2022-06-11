@@ -1,4 +1,4 @@
-<div class="product-card-lg">
+<!-- <div class="product-card-lg">
   <button class="btn btn-compare">
     <i class="fa fa-compress" aria-hidden="true"></i>
   </button>
@@ -31,5 +31,19 @@
         <i class="fa fa-share-alt"></i>
       </button>
     </div>
+  </div>
+</div> -->
+
+
+<div class="product-card-lg">
+  <button class="btn btn-sync" (click)="syncProduct(product.id)">
+    Sync
+  </button>
+  <div class="product-card__image">
+    <img src="{{product.imageUrl}}" alt="{{product.name}}"/>
+  </div>
+  <div class="product-card__info">
+    <p class="product-card__product-title">{{product.name}}</p>
+    <p class="product-card__price">${{product.price | number}}</p>
   </div>
 </div>

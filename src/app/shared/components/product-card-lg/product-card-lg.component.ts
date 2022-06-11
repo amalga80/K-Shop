@@ -1,22 +1,25 @@
-import { Component, OnInit, Input } from '@angular/core';
-import {NgbRatingConfig} from '@ng-bootstrap/ng-bootstrap';
+import { Component, OnInit, Input, Output, EventEmitter } from '@angular/core';
 
 @Component({
   selector: 'app-product-card-lg',
   templateUrl: './product-card-lg.component.html',
   styleUrls: ['./product-card-lg.component.scss'],
-  providers: [NgbRatingConfig]
+  providers: []
 
 })
 export class ProductCardLgComponent implements OnInit {
 
   @Input() product: any = [];
-  constructor(config: NgbRatingConfig) {
-    config.max = 5;
-    config.readonly = true;
+  @Output() updateProduct = new EventEmitter();
+  constructor() {
+
    }
 
   ngOnInit(): void {
+  }
+
+  syncProduct(productId) {
+    this.updateProduct.emit(productId);
   }
 
 }

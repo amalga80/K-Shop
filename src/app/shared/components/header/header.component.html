@@ -1,61 +1,13 @@
-<nav class="navbar navbar-expand-lg pb-0">
-  <div class="container-fluid container-fluid_header">
-    <a class="navbar-brand d-lg-none d-block mr-0" [routerLink]="'.'">
-      <img src="../../assets/Path 224.png" alt="..." class=" rounded-circle w-20">
-    </a>
-
-    <button class="btn btn-primary_custom navbar-toggler" type="button" (click)="isMenuCollapsed = !isMenuCollapsed">
-      &#9776;
-    </button>
-
-
-    <div [ngbCollapse]="isMenuCollapsed" class="collapse navbar-collapse custom-navbar-collapse">
-      <ul class="navbar-nav navbar-nav_search">
+<nav class="navbar">
+  <div class=" container-fluid_header">
+      <ul class="navbar-nav navbar-nav_brand">
         <li class="nav-item">
-          <a class="navbar-brand d-none d-lg-block mr-0" [routerLink]="'.'">
-            <img src="../../assets/Path 224.png" alt="..." class=" rounded-circle w-20">
+          <a class="navbar-brand" [routerLink]="'.'">
+            <i class="fa fa-cubes"></i>
+              OPenStore
           </a>
         </li>
-        <li class="nav-item w-100">
-          <div>
-            <div class="input-icons input-search">
-              <i class="fa fa-search icon"></i>
-              <input class="form-control rounded input-field input-search" type="text" placeholder="عم تبحث؟" aria-label="Search" >
-            </div>
-          </div>
-        </li>
-        <li class="nav-item d-flex">
-          <button class="btn btn-primary_custom user-btn" [routerLink]="'.'" (click)="isMenuCollapsed = true">
-            <i class="fa fa-user"></i>
-          </button>
-          <button class="btn btn-primary_custom btn-primary_cart" [routerLink]="'.'" (click)="isMenuCollapsed = true">  سلة التسوق <i
-            class="fa fa-shopping-cart"></i></button>
-        </li>
       </ul>
-      <ul class="navbar-nav navbar-nav_links">
-        <li class="nav-item">
-          <div ngbDropdown class="d-inline-block">
-            <button type="button" class="btn btn-dropdown-custom " id="dropdownBasic1" ngbDropdownToggle>الأقسام</button>
-            <div ngbDropdownMenu aria-labelledby="dropdownBasic1">
-              <button ngbDropdownItem [routerLink]="'.'">قسم ١</button>
-              <button ngbDropdownItem [routerLink]="'.'">قسم ٢</button>
-              <button ngbDropdownItem [routerLink]="'.'">قسم ٣</button>
-            </div>
-          </div>
-        </li>
-        <li class="nav-item active">
-          <a class="nav-link btn" [routerLink]="'.'" (click)="isMenuCollapsed = true">الرئيسية</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link btn" [routerLink]="'.'" (click)="isMenuCollapsed = true">قائمة الأمنيات</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link btn" [routerLink]="'.'" (click)="isMenuCollapsed = true">تواصل معنا</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link btn" [routerLink]="'.'" (click)="isMenuCollapsed = true">من نحن</a>
-        </li>
-      </ul>
-    </div>
   </div>
 </nav>
+

@@ -18,29 +18,13 @@ body, p, a, span, li {
   font-size: 14pt;
 }
 
-.btn-primary {
-  // background-color: ;
+body {
+  background: $grayBG ;
 }
 
 .btn-primary_custom {
   background-color: $btnBG;
   color: $primary;
-}
-
-.input-icons {
-  position: relative;
-
-  .icon {
-    position: absolute;
-    top: 10px;
-    right: 10px;
-  }
-
-  input {
-    padding-right: 50px;
-    border: 0;
-    outline: none;
-  }
 }
 
 .p-0 {
@@ -49,16 +33,4 @@ body, p, a, span, li {
 
 .pb-0 {
   padding-bottom: 0;
-}
-
-.banner-container {
-  .slick-prev {
-    right: 25px;
-    z-index: 100;
-  }
-
-  .slick-next {
-    left: 25px;
-    z-index: 100;
-  }
 }

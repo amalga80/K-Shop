@@ -1,19 +1,17 @@
-<app-banner></app-banner>
 <div class="container">
-  <div class="row">
-    <div class="col-12 col-md-12 col-lg-3">
-      <h4 class="recent-products-header-title">منتجات تصفحتها مؤخرا</h4>
-      <div *ngFor="let product of recentProducts">
-        <app-product-card-sm [product]="product"></app-product-card-sm>
+  <div div class="row">
+    <div class="col-12 col-md-12 col-lg-12 d-flex justify-content-between">
+      <div>
+        <h1 class="recent-products-header-title">Products</h1>
+      </div>
+      <div>
+        <button class="main-products-header-title sync-btn" (click)="syncProducts()">Sync</button>
       </div>
     </div>
-    <div class="col-12 col-md-12 col-lg-9">
-      <div>
-        <h4 class="main-products-header-title">وصل حديثا</h4>
-      </div>
+    <div class="col-12 col-md-12 col-lg-12 mt-3">
       <div class="row">
         <div class="col-12 col-md-6 col-lg-3 product-card-lg-container" *ngFor="let product of products">
-          <app-product-card-lg [product]="product"></app-product-card-lg>
+          <app-product-card-lg [product]="product" (updateProduct)="updateProduct($event)"></app-product-card-lg>
         </div>
       </div>
     </div>
